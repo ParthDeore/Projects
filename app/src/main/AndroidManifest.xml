@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodwaste">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/foodpic2"
+        android:label="Demeter"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodWaste">
+        <activity
+            android:name=".don_itemList"
+            android:exported="true" />
+        <activity
+            android:name=".settings_address"
+            android:exported="true" />
+        <activity
+            android:name=".settings_phno"
+            android:exported="true" />
+        <activity
+            android:name=".settings_email"
+            android:exported="true" />
+        <activity
+            android:name=".settings_password"
+            android:exported="true" />
+        <activity
+            android:name=".changepassword"
+            android:exported="true" />
+        <activity
+            android:name=".Settings_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".NavActivity"
+            android:exported="true"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.FoodWaste.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
